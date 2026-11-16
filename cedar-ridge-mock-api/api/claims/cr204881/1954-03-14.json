@@ -1,0 +1,25 @@
+{
+  "verified": true,
+  "member_id": "CR-204-881",
+  "claims": [
+    {
+      "claim_number": "CL-77120",
+      "service": "Cardiology office visit",
+      "date_of_service": "2026-10-06",
+      "status": "Paid",
+      "plan_paid": 212,
+      "member_owes": 35,
+      "note": "Member owes the $35 specialist copay."
+    },
+    {
+      "claim_number": "CL-77344",
+      "service": "Outpatient MRI",
+      "date_of_service": "2026-10-21",
+      "status": "Denied",
+      "plan_paid": 0,
+      "denial_reason": "Prior authorization not on file.",
+      "appeal_window_open": true,
+      "next_step": "Member may appeal. Offer a transfer to a representative who can explain appeal options."
+    }
+  ]
+}

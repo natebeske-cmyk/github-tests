@@ -1,0 +1,49 @@
+{
+  "_note": "Fictional demo data. Cedar Ridge Health Plan is not a real plan and these are not real people. Edit this file, then run: python3 build.py",
+  "plan": "Cedar Ridge Advantage Plus (HMO)",
+  "members": [
+    {
+      "member_id": "CR-204-881",
+      "date_of_birth": "1954-03-14",
+      "first_name": "Maria",
+      "preferred_language": "Spanish",
+      "claims": [
+        {
+          "claim_number": "CL-77120",
+          "service": "Cardiology office visit",
+          "date_of_service": "2026-10-06",
+          "status": "Paid",
+          "plan_paid": 212,
+          "member_owes": 35,
+          "note": "Member owes the $35 specialist copay."
+        },
+        {
+          "claim_number": "CL-77344",
+          "service": "Outpatient MRI",
+          "date_of_service": "2026-10-21",
+          "status": "Denied",
+          "plan_paid": 0,
+          "denial_reason": "Prior authorization not on file.",
+          "appeal_window_open": true,
+          "next_step": "Member may appeal. Offer a transfer to a representative who can explain appeal options."
+        }
+      ]
+    },
+    {
+      "member_id": "CR-118-402",
+      "date_of_birth": "1949-11-02",
+      "first_name": "Harold",
+      "preferred_language": "English",
+      "claims": [
+        {
+          "claim_number": "CL-76015",
+          "service": "Physical therapy",
+          "date_of_service": "2026-09-30",
+          "status": "In process",
+          "received_date": "2026-10-03",
+          "note": "Decision expected within 30 days of receipt. Nothing is owed yet."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "verified": true,
+  "member_id": "CR-118-402",
+  "claims": [
+    {
+      "claim_number": "CL-76015",
+      "service": "Physical therapy",
+      "date_of_service": "2026-09-30",
+      "status": "In process",
+      "received_date": "2026-10-03",
+      "note": "Decision expected within 30 days of receipt. Nothing is owed yet."
+    }
+  ]
+}
